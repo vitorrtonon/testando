@@ -1,1 +1,0 @@
-var _WM_APP_PROPERTIES = {"defaultLanguage":"pt-br","type":"APPLICATION","homePage":"Main","platformType":"WEB","activeTheme":"default"}

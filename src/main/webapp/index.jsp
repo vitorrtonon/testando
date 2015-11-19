@@ -1,4 +1,4 @@
-<%@page import="topcom.presense.server.util.*"%>
+<%@page import="topcom.presense.server.util.*, topcom.presense.server.dao.*, topcom.presense.server.pojo.*, org.hibernate.*, org.hibernate.cfg.*, java.util.*, java.sql.*"%>
 <%
 	HibernateUtil.getSessionFactory().openSession();
 	/*
@@ -29,6 +29,5 @@
 	md.insert(manager);
 	ed.insert(event);
 	sd.insert(sensor);
-*/
 %>
 Hello!
