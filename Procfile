@@ -1,0 +1,1 @@
+web: java -cp target/classes:target/dependency/* topcom.presense.server.heroku.Main
